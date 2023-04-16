@@ -1,0 +1,32 @@
+{
+  "name": "twitter-user-oauth",
+  "version": "0.1.0",
+  "description": "Twitter user oauth workflow",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewberryman/twitter-user-oauth.git"
+  },
+  "keywords": [
+    "Twitter",
+    "oauth"
+  ],
+  "author": "Matthew Berryman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/matthewberryman/twitter-user-oauth/issues"
+  },
+  "homepage": "https://github.com/matthewberryman/twitter-user-oauth#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "twitter-api-v2": "^1.14.2"
+  }
+}
